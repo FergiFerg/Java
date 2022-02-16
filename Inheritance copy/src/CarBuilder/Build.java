@@ -1,14 +1,13 @@
 package CarBuilder;
 
-import Ex1.Vehicle;
+import Ex1.Engine;
 
 public class Build {
 
 	public static void main(String[] args) {
 
-		Vehicle car1 = new Vehicle(3, 69.00);
-		System.out.println(car1.getPrice());
-		System.out.println(car1.getNumbOfDoors());
+		Engine e1 = new Engine(10, 30.00, true);
+		Engine.showEngineInfo(e1);
 
 	}
 
